@@ -14,7 +14,6 @@ const errorMiddleware = require('./middleware/error-handler');
 //middleware
 app.use(express.json()) //this is not used
 
-
 //routes
 
 app.get('/',(req,res)=>{
